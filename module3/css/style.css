@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#heads h1{
+    margin-top: 20px;
+}
+#section1{
+    position: relative;
+    background-color: grey;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+}
+section a{
+    text-align: center;
+}
+#section2{
+    position: relative;
+    background-color: grey;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+}
+#section3{
+    position: relative;
+    background-color: grey;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+}
+
+@media (min-width: 1200px){
+    section{
+        margin-left: 75px;
+    }
+}
+@media (min-width: 996px) and (max-width: 1199px){
+    section{
+        margin-left: 55px;
+    }
+}
+@media (min-width: 762px) and (max-width: 995px){
+     #section2{
+        margin-left: 16.66%;
+    }
+    section{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 761px){
+    section{
+        margin: 20px 20px 20px 20px;
+        width: 80%;
+    }
+}
